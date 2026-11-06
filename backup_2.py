@@ -3,7 +3,7 @@ from datetime import datetime
 from progress.bar import Bar
 import yadisk
 
-TOKEN = 'Ваш токен'
+TOKEN = 'your_token'
 y = yadisk.YaDisk(token=TOKEN)
 
 def backup(savepath: str, loadpath: str):
